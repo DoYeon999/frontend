@@ -41,6 +41,7 @@ function AddUser() {
                 이름
               </label>
               <input
+                required
                 type="text"
                 id="name"
                 value={name}
@@ -56,6 +57,7 @@ function AddUser() {
                 유저네임
               </label>
               <input
+                required
                 type="text"
                 id="username"
                 value={username}
@@ -71,6 +73,7 @@ function AddUser() {
                 이메일
               </label>
               <input
+                required
                 type="text"
                 id="email"
                 value={email}
